@@ -1,9 +1,9 @@
-export {}
+export { }
 
 // JS types:
-let fistName = 'John';
-let isAdmin = false;
-let age = 30;
+let fistName: string = 'John';
+let isAdmin: Boolean = false;
+let age: number = 30;
 
 let duties = ['write code', 'fix bugs']
 

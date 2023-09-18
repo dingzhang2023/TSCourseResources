@@ -13,8 +13,8 @@ function generateRandomId() {
 
 export function createEmployee(employeeName: string, salary: number): Employee {
     return {
-        name: employeeName,
         id: generateRandomId(),
+        name: employeeName,
         email: `${employeeName}@coolcompany.com`,
         salary: salary
     }

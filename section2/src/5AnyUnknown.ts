@@ -1,10 +1,10 @@
-export {}
+export { }
 
 let queryResult: any = 5; // disable Type check
 queryResult = '5'
 queryResult = [5]
 
-function getSalaryFromExternalService(employeeId: number): unknown{
+function getSalaryFromExternalService(employeeId: number): unknown {
     return JSON.parse('5')
 }
 
@@ -23,12 +23,12 @@ if (typeof salary === 'string' || typeof salary === 'number') { // type narrowin
 
 if (salary &&
     typeof salary === 'object' &&
-    'history' in salary && 
+    'history' in salary &&
     Array.isArray(salary.history)) {
     salary.history.push(12000)
 }
 
-// When to use any?
+// When to use any? js to ts migration
 // Start of JS to TS migration
 // Inside unit tests
 // 

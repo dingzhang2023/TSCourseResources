@@ -1,6 +1,7 @@
-export {}
+export { }
 // Arrays:
 const duties: string[] = ['write code']
+// const duties: Array<string> = ['write code']
 
 duties.push('fix bugs')
 duties.map(duty => {
@@ -10,5 +11,5 @@ duties.map(duty => {
 // Tuples:
 let employeeLockerCode: [string, number] = ['John', 345]
 employeeLockerCode = ['5', 6];
-employeeLockerCode.push(12); // 
+employeeLockerCode.push(12);
 console.log(employeeLockerCode);

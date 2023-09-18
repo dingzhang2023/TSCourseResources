@@ -1,11 +1,10 @@
-
 function greet(name: string) {
     return ('Hello ' + name)
 }
 
 const johnGreet = greet('John');
 
-function greetToUpperCase(name: string){
+function greetToUpperCase(name: string) {
     return ('Hello ' + name.toUpperCase())
 }
 
@@ -16,7 +15,7 @@ function consoleGreetJohn(name = 'John') {
 consoleGreetJohn();
 consoleGreetJohn('Bil')
 
-const greetToConsole = (name: string) =>{
+const greetToConsole = (name: string) => {
     console.log('Hello ' + name);
 }
 
